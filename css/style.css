@@ -40,7 +40,7 @@ body
 
 .send_message 
 {
-    background-image: url(../img/arrow-right-solid.svg);
+    background-image: url(img/arrow-right-solid.svg);
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
