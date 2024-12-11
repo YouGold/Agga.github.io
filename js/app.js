@@ -14,6 +14,7 @@ send_message.onclick = function()
         message_form.appendChild(message_text);
 
         message_text.textContent = message_box.value
+        message_box.value = ""
 
     }
 
