@@ -19,7 +19,6 @@ body
 {
     background-color: rgb(92, 92, 92);
     height: 4vw;
-    margin-top: 42vw;
     border-radius: 15px;
     width: 100%;
 }
@@ -54,4 +53,27 @@ body
 .info_section 
 {
     
+}
+
+.message_section 
+{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    overflow:auto ;
+    border: 1px solid #ccc;
+    height: 42vw;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+.test 
+{
+    flex-shrink: 0;
+    width: 88%;
+    height: 4vw;
+    background-color: rgba(114, 114, 114);
+    border-radius: 20px;
 }
