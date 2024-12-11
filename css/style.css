@@ -3,6 +3,13 @@ body
     background-color: rgb(46, 46, 46);
 }
 
+p 
+{
+    overflow: hidden;
+    color: aliceblue;
+    font-size: large;
+}
+
 .main 
 {
     width: 35%;
@@ -69,11 +76,12 @@ body
     white-space: nowrap;
 }
 
-.test 
+.message_container 
 {
     flex-shrink: 0;
     width: 88%;
     height: 4vw;
     background-color: rgba(114, 114, 114);
     border-radius: 20px;
+    display: inline ;
 }
