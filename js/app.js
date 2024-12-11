@@ -21,6 +21,7 @@ function Add_New_Message_Box()
     message_remove_button.setAttribute("type","button");
 
     message_form.classList.add("message_container");
+    message_remove_button.classList.add("delete_message");
     message_section.appendChild(message_form);
     message_form.appendChild(message_remove_button);
     message_form.appendChild(message_text);
