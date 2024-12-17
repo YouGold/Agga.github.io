@@ -8,6 +8,7 @@ p
     overflow: hidden;
     color: aliceblue;
     font-size: large;
+    padding: 1vw;
 }
 
 .main 
@@ -28,33 +29,37 @@ p
     height: 4vw;
     border-radius: 15px;
     width: 100%;
+
+    display: flex;
 }
 
 .message_box 
 {
-   margin-top: 20px;
+   margin-top: 2.5%;
    margin-left: 20px;
 
-   height: 2vw;
+   height: 50%;
    width: 80%;
    
    background:fixed;
    border-radius: 15px;
    color: rgb(167, 167, 167);
    font-size: larger;
+   
 }
 
 .send_message 
 {
     background-image: url(../img/arrow-right-solid.png);
-    height: 50px;
-    width: 50px;
+    background-size: cover;
+    height: 50%;
+    width: 5.5%;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 100%;
     background-color: rgb(68, 68, 68);
-    margin-left: 15px;
-    line-height: 18px;
+    margin-left: 1%;
+    margin-top: 3%;
 }
 
 .message_section 
@@ -62,12 +67,11 @@ p
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    overflow:auto ;
     border: 1px solid #ccc;
     height: 42vw;
     width: 100%;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y:auto;
     white-space: nowrap;
 }
 
@@ -78,5 +82,13 @@ p
     height: 4vw;
     background-color: rgba(114, 114, 114);
     border-radius: 20px;
-    display: inline ;
+    display: inline;
+}
+
+/* Mobile Version */
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+    .main 
+    {
+        width: 50%;
+    }
 }
