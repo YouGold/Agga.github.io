@@ -23,8 +23,8 @@ function Add_New_Message_Box()
     message_form.classList.add("message_container");
     message_remove_button.classList.add("delete_message");
     message_section.appendChild(message_form);
-    message_form.appendChild(message_remove_button);
     message_form.appendChild(message_text);
+    message_form.appendChild(message_remove_button);
         
     message_text.textContent = message_box.value
     message_box.value = ""
